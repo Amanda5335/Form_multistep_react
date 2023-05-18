@@ -8,6 +8,7 @@ const UserForm = ({ data, updateFieldHandler }) => {
           type="text"
           name="name"
           id="name"
+          autoComplete="off"
           placeholder="Digite o seu nome"
           required
           // eslint-disable-next-line react/prop-types
@@ -21,6 +22,7 @@ const UserForm = ({ data, updateFieldHandler }) => {
           type="email"
           name="email"
           id="email"
+          autoComplete="off"
           placeholder="Digite o seu email"
           required
           // eslint-disable-next-line react/prop-types
